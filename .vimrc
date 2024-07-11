@@ -20,15 +20,12 @@ set showcmd
 set showmatch
 set hlsearch
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
-set clipboard=unnamedplus
 set statusline=
 set statusline+=\ %F\ %M\ %Y\ %R
 set statusline+=%=
 set laststatus=2
 
 " Remaps
-nnoremap Y y$
-nnoremap <f5> :w <CR>:!clear <CR>:!python3 % <CR>
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
