@@ -24,6 +24,8 @@ set statusline=
 set statusline+=\ %F\ %M\ %Y\ %R
 set statusline+=%=
 set laststatus=2
+set path+=**
+set wildmenu
 
 " Remaps
 nnoremap <c-j> <c-w>j
