@@ -8,24 +8,12 @@ To set up the enhanced Vim environment, follow these steps:
 
 1. Clone the repository into your home directory:
    ```bash
-   git clone <repository_url> ~
+   git clone https://github.com/xavierparaujo/.vim.git ~
    ```
 
 2. Move the `.vimrc` file from the repository to your home directory:
    ```bash
-   mv ~/repo_name/.vimrc ~/
+   mv ~/.vim/.vimrc ~/
    ```
 
 Now, you're all set! Open Vim and enjoy your enhanced setup.
-
-## Contributing
-
-Feel free to open issues or submit pull requests to improve the Vim environment.
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-Make sure to replace `<repository_url>` and `repo_name` with the actual values!
